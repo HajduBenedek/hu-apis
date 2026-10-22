@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "paths": {
+      "@hu-apis/core": ["./packages/core/src/index.ts"],
+      "@hu-apis/mnb": ["./packages/mnb/src/index.ts"],
+      "@hu-apis/ksh": ["./packages/ksh/src/index.ts"],
+      "@hu-apis/nav": ["./packages/nav/src/index.ts"]
+    }
+  },
+  "include": ["packages/*/src", "packages/*/test", "vitest.config.ts"]
+}

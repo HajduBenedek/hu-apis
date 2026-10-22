@@ -1,0 +1,39 @@
+{
+  "name": "@hu-apis/core",
+  "version": "0.0.0",
+  "description": "Shared HTTP client, retry policy and error types for @hu-apis packages.",
+  "license": "MIT",
+  "author": "Hajdu Benedek",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HajduBenedek/hu-apis.git",
+    "directory": "packages/core"
+  },
+  "keywords": [
+    "hungary",
+    "api-client",
+    "http",
+    "retry"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}

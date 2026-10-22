@@ -1,0 +1,152 @@
+<rdf:RDF
+  xmlns:schema="http://schema.org/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:spdx="http://spdx.org/rdf/terms#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:dcatap="http://data.europa.eu/r5r/dcat-ap#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+>
+  <dcat:Dataset rdf:about="https://data.ksh.hu/datasets/350ebb20-e655-496a-9045-352c287fbe50">
+    <dct:title xml:lang="hu">HVD - Ipari termelés</dct:title>
+    <dct:title xml:lang="en">HVD - Industrial production</dct:title>
+    <dct:description xml:lang="hu">HVD - Ipari termelés PRODCOM szerinti bontásban</dct:description>
+    <dct:description xml:lang="en">HVD – Industrial production broken down by PRODCOM classification</dct:description>
+    <dct:identifier>350ebb20-e655-496a-9045-352c287fbe50</dct:identifier>
+    <dct:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/HVD" />
+    <dct:accrualPeriodicity>
+      <dct:Frequency rdf:about="http://publications.europa.eu/resource/authority/frequency/ANNUAL">
+        <skos:prefLabel xml:lang="hu">éves</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">annual</skos:prefLabel>
+      </dct:Frequency>
+    </dct:accrualPeriodicity>
+    <dcat:keyword xml:lang="hu">ipari termelés</dcat:keyword>
+    <dcat:keyword xml:lang="en">industrial production</dcat:keyword>
+    <dcat:keyword xml:lang="hu">értékesített termelés</dcat:keyword>
+    <dcat:keyword xml:lang="en">sold production</dcat:keyword>
+    <dcat:keyword xml:lang="hu">alvállalkozói tevékenység keretében történő termelés</dcat:keyword>
+    <dcat:keyword xml:lang="en">production carried out under subcontracting arrangements</dcat:keyword>
+    <dcat:keyword xml:lang="hu">tényleges termelés</dcat:keyword>
+    <dcat:keyword xml:lang="en">actual production</dcat:keyword>
+    <dct:accessRights>
+      <dct:RightsStatement rdf:about="http://publications.europa.eu/resource/authority/access-right/PUBLIC">
+        <skos:prefLabel xml:lang="en">public</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">nyilvános</skos:prefLabel>
+      </dct:RightsStatement>
+    </dct:accessRights>
+    <dct:creator>
+      <rdf:Description rdf:about="http://ksh.hu">
+        <dct:title>Központi Statisztikai Hivatal</dct:title>
+        <dct:alternative>KSH</dct:alternative>
+      </rdf:Description>
+    </dct:creator>
+    <dcat:contactPoint>
+      <vcard:Organisation rdf:about="https://www.ksh.hu/">
+        <vcard:hasEmail>https://kapcsolat.ksh.hu/ContactCenter/</vcard:hasEmail>
+        <vcard:fn>Központi Statisztikai Hivatal</vcard:fn>
+      </vcard:Organisation>
+    </dcat:contactPoint>
+    <dct:publisher>
+      <foaf:Organization rdf:about="https://ksh.hu/">
+        <rdf:type rdf:resource="https://www.w3.org/2006/vcard/ns#Organization" />
+        <foaf:name>Központi Statisztikai Hivatal</foaf:name>
+        <foaf:homepage rdf:resource="https://ksh.hu/" />
+      </foaf:Organization>
+    </dct:publisher>
+    <dct:temporal>
+      <dct:PeriodOfTime>
+        <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2021</schema:startDate>
+        <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2023</schema:endDate>
+      </dct:PeriodOfTime>
+    </dct:temporal>
+    <dct:spatial>
+      <dct:Location rdf:about="http://publications.europa.eu/resource/authority/atu/HUN">
+        <skos:prefLabel xml:lang="en">Hungary</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Magyarország</skos:prefLabel>
+      </dct:Location>
+    </dct:spatial>
+    <dcatap:hvdCategory rdf:resource= "http://data.europa.eu/bna/c_34abf8c1" />
+    <dcat:theme>
+      <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
+        <skos:prefLabel xml:lang="en">Economy and finance</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Gazdaság és pénzügy</skos:prefLabel>
+      </skos:Concept>
+    </dcat:theme>
+    <dcat:Relationship>
+      <dcterms:relation rdf:about="https://ec.europa.eu/eurostat/databrowser/view/ds-056121/legacyMultiFreq/table?lang=en&amp;category=prom">
+        <dcat:hadRole rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/ResponsiblePartyRole/distributor" />
+      </dcterms:relation>
+    </dcat:Relationship>
+    <dcat:Relationship>
+      <dcterms:relation rdf:about="https://ec.europa.eu/eurostat/databrowser/view/ds-056120/legacyMultiFreq/table?lang=en&amp;category=prom">
+        <dcat:hadRole rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/ResponsiblePartyRole/distributor" />
+      </dcterms:relation>
+    </dcat:Relationship>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://data.ksh.hu/datasets/350ebb20-e655-496a-9045-352c287fbe50/data/43652871-bb56-47ee-8678-6b1dac2fd11b.csv">
+        <dct:title xml:lang="hu">HVD - Ipari termelés</dct:title>
+        <dct:title xml:lang="en">HVD - Industrial production</dct:title>
+        <dct:description xml:lang="hu">HVD - Ipari termelés PRODCOM szerinti bontásban</dct:description>
+        <dct:description xml:lang="en">HVD – Industrial production broken down by PRODCOM classification</dct:description>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2021</schema:startDate>
+            <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2021</schema:endDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-18T10:59:34.000Z</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-18T10:59:34.000Z</dct:modified>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV" />
+        <dcat:downloadURL>https://data.ksh.hu/datasets/350ebb20-e655-496a-9045-352c287fbe50/data/43652871-bb56-47ee-8678-6b1dac2fd11b.csv</dcat:downloadURL>
+        <dct:conformsTo rdf:resource="https://data.ksh.hu/datasets/350ebb20-e655-496a-9045-352c287fbe50/schema/43652871-bb56-47ee-8678-6b1dac2fd11b.xml" />
+        <dcterms:license rdf:resource ="https://creativecommons.org/licenses/by/4.0/" />
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj" />
+        <dcat:accessService>
+          <dcat:DataService rdf:about="https://data.ksh.hu/">
+            <dct:title xml:lang="hu">API szolgáltatás</dct:title>
+            <dct:title xml:lang="en">API service</dct:title>
+            <dcat:accessURL>https://data.ksh.hu/openapi</dcat:accessURL>
+            <dcat:endpointURL>https://data.ksh.hu/openapi.yaml</dcat:endpointURL>
+            <dcat:endpointDescription xml:lang="en">https://data.ksh.hu/en/documentation</dcat:endpointDescription>
+            <dcat:endpointDescription xml:lang="hu">https://data.ksh.hu/dokumentacio</dcat:endpointDescription>
+          </dcat:DataService>
+        </dcat:accessService>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://data.ksh.hu/datasets/350ebb20-e655-496a-9045-352c287fbe50/data/3d7e51f2-2790-4efc-890a-f2c870b9aa24.csv">
+        <dct:title xml:lang="hu">HVD - Ipari termelés</dct:title>
+        <dct:title xml:lang="en">HVD - Industrial production</dct:title>
+        <dct:description xml:lang="hu">HVD - Ipari termelés PRODCOM szerinti bontásban</dct:description>
+        <dct:description xml:lang="en">HVD – Industrial production broken down by PRODCOM classification</dct:description>
+        <dct:temporal>
+          <dct:PeriodOfTime>
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2022</schema:startDate>
+            <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2023</schema:endDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-18T10:59:34.000Z</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-18T10:59:34.000Z</dct:modified>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV" />
+        <dcat:downloadURL>https://data.ksh.hu/datasets/350ebb20-e655-496a-9045-352c287fbe50/data/3d7e51f2-2790-4efc-890a-f2c870b9aa24.csv</dcat:downloadURL>
+        <dct:conformsTo rdf:resource="https://data.ksh.hu/datasets/350ebb20-e655-496a-9045-352c287fbe50/schema/3d7e51f2-2790-4efc-890a-f2c870b9aa24.xml" />
+        <dcterms:license rdf:resource ="https://creativecommons.org/licenses/by/4.0/" />
+        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj" />
+        <dcat:accessService>
+          <dcat:DataService rdf:about="https://data.ksh.hu/">
+            <dct:title xml:lang="hu">API szolgáltatás</dct:title>
+            <dct:title xml:lang="en">API service</dct:title>
+            <dcat:accessURL>https://data.ksh.hu/openapi</dcat:accessURL>
+            <dcat:endpointURL>https://data.ksh.hu/openapi.yaml</dcat:endpointURL>
+            <dcat:endpointDescription xml:lang="en">https://data.ksh.hu/en/documentation</dcat:endpointDescription>
+            <dcat:endpointDescription xml:lang="hu">https://data.ksh.hu/dokumentacio</dcat:endpointDescription>
+          </dcat:DataService>
+        </dcat:accessService>
+      </dcat:Distribution>
+    </dcat:distribution>
+  </dcat:Dataset>
+</rdf:RDF>

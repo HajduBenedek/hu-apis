@@ -1,0 +1,418 @@
+[
+	{
+		"id": "350ebb20-e655-496a-9045-352c287fbe50",
+		"titles": {
+			"hu": "HVD - Ipari termelés",
+			"en": "HVD - Industrial production"
+		},
+		"keywords": {
+			"hu": [
+				"ipari termelés",
+				"értékesített termelés",
+				"alvállalkozói tevékenység keretében történő termelés",
+				"tényleges termelés"
+			],
+			"en": [
+				"industrial production",
+				"sold production",
+				"production carried out under subcontracting arrangements",
+				"actual production"
+			]
+		},
+		"themes": {
+			"hu": [
+				"Gazdaság és pénzügy"
+			],
+			"en": [
+				"Economy and finance"
+			]
+		}
+	},
+	{
+		"id": "4e8d4137-0962-4dfe-9d06-ca9d38ec6301",
+		"titles": {
+			"hu": "HVD - Termékenység",
+			"en": "HVD - Fertility"
+		},
+		"keywords": {
+			"hu": [
+				"élveszületési arányszám",
+				"termékenységi arányszám"
+			],
+			"en": [
+				"crude birth date",
+				"total fertility rate"
+			]
+		},
+		"themes": {
+			"hu": [
+				"Népesség és társadalom"
+			],
+			"en": [
+				"Population and society"
+			]
+		}
+	},
+	{
+		"id": "53c37b27-294a-4335-9764-3998f2954a90",
+		"titles": {
+			"hu": "HVD - Ipari termelői árindex, gazdasági tevékenység szerinti bontások",
+			"en": "HVD - Industrial producer price index breakdowns by activity"
+		},
+		"keywords": {
+			"hu": [
+				"termelői árak",
+				"belföldi termelői árak",
+				"nem belföldi termelői árak"
+			],
+			"en": [
+				"producer prices",
+				"domestic producer prices",
+				"non-domestic producer prices"
+			]
+		},
+		"themes": {
+			"hu": [
+				"Gazdaság és pénzügy"
+			],
+			"en": [
+				"Economy and finance"
+			]
+		}
+	},
+	{
+		"id": "5a07357d-403b-4621-b618-1aee59405f60",
+		"titles": {
+			"hu": "HVD - Kiskereskedelmi értékesítési volumen",
+			"en": "HVD - Volume of sales by activity"
+		},
+		"keywords": {
+			"hu": [
+				"kiskereskedelmi értékesítési volumen"
+			],
+			"en": [
+				"volume of sales"
+			]
+		},
+		"themes": {
+			"hu": [
+				"Gazdaság és pénzügy"
+			],
+			"en": [
+				"Economy and finance"
+			]
+		}
+	},
+	{
+		"id": "93a05949-b058-477f-a02d-0fdb024b503f",
+		"titles": {
+			"hu": "HVD - Nemzeti számlák – a GDP főbb éves aggregátumai",
+			"en": "HVD - National accounts – the main annual aggregates of GDP"
+		},
+		"keywords": {
+			"hu": [
+				"bruttó hazai termék",
+				"bruttó hozzáadott érték",
+				"munkavállalói jövedelem",
+				"háztartások végső fogyasztási kiadásai",
+				"foglalkoztatás",
+				"bruttó nemzeti jövedelem",
+				"a GDP termelésében fogalkoztatottak",
+				"nettó hitelnyújtás / nettó hitelfelvétel",
+				"területi nemzeti számlák",
+				"nemzeti számlák"
+			],
+			"en": [
+				"Gross Domestic Product",
+				"GDP",
+				"Gross Value Added",
+				"GVA",
+				"compensation of employees",
+				"Household Final Consumption Expenditure",
+				"HFCE",
+				"employment",
+				"Gross National Income",
+				"GNI",
+				"employment in resident production units",
+				"net lending/net borrowing",
+				"Regional National Accounts",
+				"national accounts"
+			]
+		},
+		"themes": {
+			"hu": [
+				"Gazdaság és pénzügy"
+			],
+			"en": [
+				"Economy and finance"
+			]
+		}
+	},
+	{
+		"id": "a5743dc2-cd2b-4561-82fc-ac5e6b1f9ab1",
+		"titles": {
+			"hu": "HVD - Kormányzati kiadások és bevételek",
+			"en": "HVD - Government expenditure and revenue"
+		},
+		"keywords": {
+			"hu": [
+				"összes kormányzati bevétel",
+				"összes kormányzati kiadás",
+				"kormányzat nettó hitelnyújtása/nettó hitelfelvétele"
+			],
+			"en": [
+				"total government revenue",
+				"aggregate government expenditure",
+				"government net lending/net borrowing"
+			]
+		},
+		"themes": {
+			"hu": [
+				"Gazdaság és pénzügy"
+			],
+			"en": [
+				"Economy and finance"
+			]
+		}
+	},
+	{
+		"id": "a5f430e6-5714-45a8-bb29-6c605419eae9",
+		"titles": {
+			"hu": "HVD - Harmonizált fogyasztói árindexek",
+			"en": "HVD - Harmonised Indices of consumer prices"
+		},
+		"keywords": {
+			"hu": [
+				"fogyasztói árindex",
+				"harmonizált fogyasztói árindex",
+				"változatlan adótartalmú harmonizált fogyasztói árindex",
+				"HICP-CT"
+			],
+			"en": [
+				"Consumer Price Index",
+				"Harmonised Index of Consumer Prices",
+				"Harmonised Index of Consumer Prices at Constant Tax Rates",
+				"HICP-CT"
+			]
+		},
+		"themes": {
+			"hu": [
+				"Gazdaság és pénzügy"
+			],
+			"en": [
+				"Economy and finance"
+			]
+		}
+	},
+	{
+		"id": "be6b8923-4770-4056-9b5f-98168e26a694",
+		"titles": {
+			"hu": "HVD - Turisztikai forgalom Európában",
+			"en": "HVD - Tourism flows in Europe"
+		},
+		"keywords": {
+			"hu": [
+				"kereskedelmi és nem üzleti célú szálláshelyeken eltöltött éjszakák száma",
+				"turizmusban való részévtel személyes célból",
+				"uniós lakosok idegenforgalmi kiadásai",
+				"uniós lakosok által tett turisztikai célú utazások",
+				"uniós lakosok által eltöltött turisztikai célú vendégéjszakák"
+			],
+			"en": [
+				"number of nights spent at commercial and non-commercial accommodation establishments",
+				"participation in tourism for personal reasons",
+				"tourism expenditure of EU residents",
+				"tourism trips made by EU residents",
+				"tourism nights spent by EU residents"
+			]
+		},
+		"themes": {
+			"hu": [
+				"Gazdaság és pénzügy"
+			],
+			"en": [
+				"Economy and finance"
+			]
+		}
+	},
+	{
+		"id": "e30c1a7b-e83a-4f24-8296-90321e7e2f95",
+		"titles": {
+			"hu": "HVD - A nemzeti számlák – a GDP főbb negyedéves aggregátumai",
+			"en": "HVD - National accounts – the main quarterly aggregates of GDP"
+		},
+		"keywords": {
+			"hu": [
+				"bruttó hazai termék",
+				"bruttó hozzáadott érték",
+				"munkavállalói jövedelem",
+				"háztartások végső fogyasztási kiadásai",
+				"bruttó állóeszköz-felhalmozás",
+				"foglalkoztatás",
+				"bruttó nemzeti jövedelem",
+				"nettó hitelnyújtás / nettó hitelfelvétel",
+				"évközepi népesség",
+				"nemzeti számlák"
+			],
+			"en": [
+				"Gross Domestic Product",
+				"GDP",
+				"Gross Value Added",
+				"GVA",
+				"compensation of employees",
+				"Household Final Consumption Expenditure",
+				"HFCE",
+				"Gross Fixed Capital Formation",
+				"GFCF",
+				"employment",
+				"Gross National Income",
+				"GNI",
+				"net lending/net borrowing",
+				"national accounts"
+			]
+		},
+		"themes": {
+			"hu": [
+				"Gazdaság és pénzügy"
+			],
+			"en": [
+				"Economy and finance"
+			]
+		}
+	},
+	{
+		"id": "e765966c-d4da-46a4-b53d-b349726494e7",
+		"titles": {
+			"hu": "HVD - Nemzeti számlák – a vállalatokra vonatkozó kiemelt mutatók",
+			"en": "HVD – National accounts – key indicators on enterprises"
+		},
+		"keywords": {
+			"hu": [
+				"nem pénzügyi vállalatok",
+				"bruttó állóeszköz-felhalmozás",
+				"pénzügyi vállalatok",
+				"nettó hitelnyújtás / nettó hitelfelvétel",
+				"bruttó működési eredmény",
+				"nemzeti számlák"
+			],
+			"en": [
+				"non-financial corporations",
+				"gross fixed capital formation",
+				"financial corporations",
+				"net lending / net borrowing",
+				"gross operating surplus",
+				"national accounts"
+			]
+		},
+		"themes": {
+			"hu": [
+				"Gazdaság és pénzügy"
+			],
+			"en": [
+				"Economy and finance"
+			]
+		}
+	},
+	{
+		"id": "f0ce6a84-be67-46e5-9dc7-7ffdae536f15",
+		"titles": {
+			"hu": "HVD - Nemzeti számlák – a háztartásokra vonatkozó kiemelt mutatók",
+			"en": "HVD - National accounts – key indicators on households"
+		},
+		"keywords": {
+			"hu": [
+				"háztartások",
+				"bruttó rendelkezésre álló jövedelem",
+				"nettó rendelkezésre álló jövedelem",
+				"nettó hitelnyújtás / nettó hitelfelvétel",
+				"bruttó megtakarítás",
+				"bruttó állóeszköz-felhalmozás",
+				"területi nemzeti számlák"
+			],
+			"en": [
+				"households",
+				"gross disposable income",
+				"net disposable income",
+				"net lending/net borrowing",
+				"gross saving",
+				"gross fixed capital formation",
+				"national accounts",
+				"regional national accounts"
+			]
+		},
+		"themes": {
+			"hu": [
+				"Gazdaság és pénzügy"
+			],
+			"en": [
+				"Economy and finance"
+			]
+		}
+	},
+	{
+		"id": "f44d314b-bc27-40a7-b34e-af01b3c4ab05",
+		"titles": {
+			"hu": "HVD - Népesség",
+			"en": "HVD - Population"
+		},
+		"keywords": {
+			"hu": [
+				"népesség",
+				"nem",
+				"életkor",
+				"humán fejlettségi index",
+				"állampolgárság",
+				"születési ország",
+				"időskori függőségi ráta",
+				"iskolai végzettség",
+				"családi állapot"
+			],
+			"en": [
+				"population",
+				"sex",
+				"age",
+				"Human Development Index",
+				"citizenship",
+				"country of birth",
+				"old-age dependency ratio",
+				"educational attainment",
+				"marital status"
+			]
+		},
+		"themes": {
+			"hu": [
+				"Népesség és társadalom"
+			],
+			"en": [
+				"Population and society"
+			]
+		}
+	},
+	{
+		"id": "fc86b7eb-f813-424f-baea-a32d65e1fdec",
+		"titles": {
+			"hu": "HVD - Mortalitás",
+			"en": "HVD - Mortality"
+		},
+		"keywords": {
+			"hu": [
+				"halálozási arányszám",
+				"csecsemőhalandóság",
+				"várható élettartam"
+			],
+			"en": [
+				"crude death rate",
+				"infant mortality rate",
+				"life expectancy at birth"
+			]
+		},
+		"themes": {
+			"hu": [
+				"Népesség és társadalom"
+			],
+			"en": [
+				"Population and society"
+			]
+		}
+	}
+]

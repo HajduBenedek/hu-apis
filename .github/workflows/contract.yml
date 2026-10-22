@@ -1,0 +1,25 @@
+name: Live contract tests
+
+# Runs the *.live.test.ts suites against the real MNB and KSH services, so an upstream
+# format change turns this workflow red before a user hits it. Not part of PR checks,
+# because a flaky government endpoint should not block merges.
+on:
+  schedule:
+    - cron: "17 6 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm test:live

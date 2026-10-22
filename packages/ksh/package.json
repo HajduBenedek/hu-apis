@@ -1,0 +1,46 @@
+{
+  "name": "@hu-apis/ksh",
+  "version": "0.0.0",
+  "description": "Typed client for the Hungarian Central Statistical Office (KSH) High-Value Datasets API.",
+  "license": "MIT",
+  "author": "Hajdu Benedek",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HajduBenedek/hu-apis.git",
+    "directory": "packages/ksh"
+  },
+  "keywords": [
+    "ksh",
+    "statistics",
+    "open-data",
+    "hvd",
+    "dcat",
+    "sdmx",
+    "hungary"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "dependencies": {
+    "@hu-apis/core": "workspace:^",
+    "fast-xml-parser": "^5.11.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}
